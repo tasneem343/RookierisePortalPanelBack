@@ -7,7 +7,7 @@ namespace BusinessLayer.Interfaces
 {
     public interface ICompanyManager
     {
-
+        
         Task<Company> CreateCompanyAsync(Company company);
 
         Task SetPasswordAsync(string email, string passwordHash);
